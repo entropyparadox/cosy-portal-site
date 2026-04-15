@@ -1,0 +1,116 @@
+/* COSY Portal — Dark Theme Override */
+
+:root {
+  --vp-c-brand-1: #48bb78;
+  --vp-c-brand-2: #38a169;
+  --vp-c-brand-3: #2f855a;
+  --vp-c-brand-soft: rgba(72, 187, 120, 0.14);
+
+  --vp-c-tip-1: #48bb78;
+  --vp-c-tip-2: rgba(72, 187, 120, 0.14);
+  --vp-c-tip-3: rgba(72, 187, 120, 0.08);
+}
+
+.dark {
+  --vp-c-bg: #0a0a0c;
+  --vp-c-bg-alt: #111114;
+  --vp-c-bg-elv: #16161a;
+  --vp-c-bg-soft: #1a1a1f;
+  --vp-sidebar-bg-color: #0e0e11;
+}
+
+/* Force dark mode */
+html {
+  color-scheme: dark;
+}
+
+/* Sidebar styling */
+.VPSidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Active sidebar item */
+.VPSidebarItem.is-active > .item .link > .text {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Navigation bar */
+.VPNavBar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Custom container styling */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+.custom-block.info {
+  border-color: #60a5fa;
+}
+
+/* Table improvements */
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vp-doc th {
+  background: rgba(72, 187, 120, 0.08);
+  font-weight: 600;
+}
+
+.vp-doc td, .vp-doc th {
+  padding: 0.6rem 1rem;
+}
+
+/* Code block styling */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Heading anchors */
+.vp-doc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Badge-like inline elements */
+.vp-doc code {
+  color: var(--vp-c-brand-1);
+  background: rgba(72, 187, 120, 0.1);
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+}
+
+/* Custom info boxes */
+.vp-doc .custom-block {
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
