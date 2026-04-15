@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ko-KR',
   title: 'COSY Portal — 기획서',
-  description: '크리에이터의 운영체제. 플랫폼을 넘어 생태계로. | EP × GlowUpRise JV',
+  description: '크리에이터의 운영체제. 플랫폼을 넘어 생태계로. | EP × glowuprizz JV',
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -59,7 +59,7 @@ export default defineConfig({
         text: '🤝 JV 구조',
         collapsed: false,
         items: [
-          { text: 'EP × GlowUpRise 역할', link: '/04-JV구조/역할분담' },
+          { text: 'EP × glowuprizz 역할', link: '/04-JV구조/역할분담' },
           { text: '법인 구조 옵션', link: '/04-JV구조/법인구조' },
           { text: '수익 배분', link: '/04-JV구조/수익배분' },
         ],
@@ -113,7 +113,7 @@ export default defineConfig({
 
     footer: {
       message: 'Confidential — For internal discussion only',
-      copyright: '© 2026 COSY Portal (EP × GlowUpRise JV)',
+      copyright: '© 2026 COSY Portal (EP × glowuprizz JV)',
     },
   },
 })

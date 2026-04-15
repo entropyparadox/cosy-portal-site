@@ -46,7 +46,7 @@ function handleSubmit() {
         <button type="submit">입장</button>
       </form>
       <p v-if="error" class="error-msg">비밀번호가 올바르지 않습니다.</p>
-      <p class="footer-text">© 2026 COSY Portal (EP × GlowUpRise JV)</p>
+      <p class="footer-text">© 2026 COSY Portal (EP × glowuprizz JV)</p>
     </div>
   </div>
   <slot v-else />

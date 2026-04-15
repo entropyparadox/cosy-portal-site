@@ -48,7 +48,7 @@ COSY Portal(크리에이터가 보는 화면)과 COSY Platform(데이터가 흐�
 
 ## COSY 내부 API
 
-Platform(GlowUpRise)이 제공하는 핵심 데이터 API입니다.
+Platform(glowuprizz)이 제공하는 핵심 데이터 API입니다.
 
 | API 도메인 | 엔드포인트 예시 | 설명 |
 |-----------|---------------|------|

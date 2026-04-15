@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "COSY Portal"
   text: "크리에이터의 운영체제"
-  tagline: 플랫폼을 넘어 생태계로 — EP × GlowUpRise Joint Venture
+  tagline: 플랫폼을 넘어 생태계로 — EP × glowuprizz Joint Venture
   actions:
     - theme: brand
       text: 비전 읽기 →
