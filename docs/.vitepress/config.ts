@@ -22,6 +22,7 @@ export default defineConfig({
       { text: '로드맵', link: '/05-로드맵/단계별로드맵' },
       { text: '시장 분석', link: '/06-시장분석/시장개요' },
       { text: '해자 & 전략', link: '/07-해자와전략/4중해자' },
+      { text: '서비스 전략', link: '/08-서비스전략/글로벌서비스맵' },
     ],
 
     sidebar: [
@@ -88,6 +89,13 @@ export default defineConfig({
         items: [
           { text: '4중 Lock-in 해자', link: '/07-해자와전략/4중해자' },
           { text: 'Exit 전략', link: '/07-해자와전략/Exit전략' },
+        ],
+      },
+      {
+        text: '🌍 서비스 전략',
+        collapsed: false,
+        items: [
+          { text: '글로벌 서비스 맵', link: '/08-서비스전략/글로벌서비스맵' },
         ],
       },
     ],
